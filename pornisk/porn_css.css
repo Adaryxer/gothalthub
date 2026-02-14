@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+
+h1 {
+    font-size: 60px;
+
+}
+
+.uvod {
+    text-align: center;
+    background-image: url("goth_wp.jpg");
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.videa-kontajner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-polozka video {
+    width: 100%;
+    height: auto;
+}
+
+.video-polozka video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.description {
+    padding: 15px;
+    text-align: center;
+}
